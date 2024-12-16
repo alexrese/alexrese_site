@@ -117,3 +117,88 @@ p span{
     padding: 8%;
 
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 5%;
+        text-align: center;
+    }
+
+    .intro {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .intro h1 {
+        font-size: 32px;
+    }
+
+    .intro h2 {
+        font-size: 24px;
+    }
+
+    .intro p {
+        font-size: 16px;
+    }
+
+    .buttons .btn {
+        padding: 8px 15px;
+        font-size: 14px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .social-icons {
+        margin-top: 20px;
+    }
+
+    .social-icons a i {
+        font-size: 20px;
+    }
+
+    .profile-picture {
+        max-width: 80%;
+    }
+
+    .profile-picture img {
+        width: 90%;
+    }
+
+    #home {
+        flex-direction: column;
+        height: auto;
+        padding: 10%;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro h1 {
+        font-size: 28px;
+    }
+
+    .intro h2 {
+        font-size: 20px;
+    }
+
+    .buttons .btn {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .social-icons a i {
+        font-size: 18px;
+    }
+}
