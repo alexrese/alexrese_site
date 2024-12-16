@@ -87,9 +87,15 @@ main {
     margin-right: 15px;
 }
 
-.social-icons img {
-    width: 24px;
+.social-icons a i{
+    color: #E1E782;
+    font-size: 24px;
 }
+
+p span{
+    color: #E1E782;
+}
+
 
 .profile-picture {
     max-width: 40%;
